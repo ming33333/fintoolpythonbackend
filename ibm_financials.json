@@ -1,0 +1,545 @@
+{
+    "cashflowStatementHistory": {
+        "cashflowStatements": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200,
+                "netIncome": 6023000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1703980800,
+                "netIncome": 7502000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1672444800,
+                "netIncome": 1639000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1640908800,
+                "netIncome": 5743000000
+            }
+        ],
+        "maxAge": 86400
+    },
+    "balanceSheetHistoryQuarterly": {
+        "balanceSheetStatements": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1727654400
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1719705600
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1711843200
+            }
+        ],
+        "maxAge": 86400
+    },
+    "quoteUnadjustedPerformanceOverview": {
+        "maxAge": 1,
+        "benchmark": {
+            "symbol": "^GSPC",
+            "shortName": "S&P 500"
+        },
+        "performanceOverview": {
+            "asOfDate": 1739491200,
+            "fiveDaysReturn": 0.0354284,
+            "oneMonthReturn": 0.19990815,
+            "threeMonthReturn": 0.2502033,
+            "sixMonthReturn": 0.358569,
+            "ytdReturnPct": 0.18855478,
+            "oneYearTotalReturn": 0.4233262,
+            "twoYearTotalReturn": 0.9210353,
+            "threeYearTotalReturn": 1.0075299,
+            "fiveYearTotalReturn": 0.8135293,
+            "tenYearTotalReturn": 0.7038583,
+            "maxReturn": 34.432003
+        },
+        "performanceOverviewBenchmark": {
+            "asOfDate": 1739491200,
+            "fiveDaysReturn": 0.014709557,
+            "oneMonthReturn": 0.046504177,
+            "threeMonthReturn": 0.027812276,
+            "sixMonthReturn": 0.12087893,
+            "ytdReturnPct": 0.03961487,
+            "oneYearTotalReturn": 0.22277433,
+            "twoYearTotalReturn": 0.47834572,
+            "threeYearTotalReturn": 0.38916138,
+            "fiveYearTotalReturn": 0.80897653,
+            "tenYearTotalReturn": 1.915908,
+            "maxReturn": 345.2418
+        }
+    },
+    "financialsTemplate": {
+        "code": "N",
+        "maxAge": 1
+    },
+    "incomeStatementHistory": {
+        "incomeStatementHistory": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200,
+                "totalRevenue": 62753000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 6023000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1703980800,
+                "totalRevenue": 61860000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 7502000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1672444800,
+                "totalRevenue": 60530000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 1639000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1640908800,
+                "totalRevenue": 57350000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 5743000000,
+                "netIncomeApplicableToCommonShares": null
+            }
+        ],
+        "maxAge": 86400
+    },
+    "summaryDetail": {
+        "maxAge": 1,
+        "priceHint": 2,
+        "previousClose": 259.19,
+        "open": 259.0,
+        "dayLow": 258.0,
+        "dayHigh": 261.94,
+        "regularMarketPreviousClose": 259.19,
+        "regularMarketOpen": 259.0,
+        "regularMarketDayLow": 258.0,
+        "regularMarketDayHigh": 261.94,
+        "dividendRate": 6.68,
+        "dividendYield": 0.0256,
+        "exDividendDate": 1739145600,
+        "payoutRatio": 1.0389,
+        "fiveYearAvgDividendYield": 4.63,
+        "beta": 0.754,
+        "trailingPE": 40.634525,
+        "forwardPE": 24.625826,
+        "volume": 3921620,
+        "regularMarketVolume": 3921620,
+        "averageVolume": 4377626,
+        "averageVolume10days": 5004500,
+        "averageDailyVolume10Day": 5004500,
+        "bid": 256.23,
+        "ask": 261.98,
+        "bidSize": 1000,
+        "askSize": 1300,
+        "marketCap": 241591238656,
+        "yield": null,
+        "ytdReturn": null,
+        "qtdReturn": null,
+        "totalAssets": null,
+        "expireDate": null,
+        "strikePrice": null,
+        "openInterest": null,
+        "fiftyTwoWeekLow": 162.62,
+        "fiftyTwoWeekHigh": 265.72,
+        "priceToSalesTrailing12Months": 3.8498755,
+        "fiftyDayAverage": 233.0018,
+        "twoHundredDayAverage": 205.0298,
+        "trailingAnnualDividendRate": 6.67,
+        "trailingAnnualDividendYield": 0.025734017,
+        "navPrice": null,
+        "currency": "USD",
+        "fromCurrency": null,
+        "toCurrency": null,
+        "lastMarket": null,
+        "coinMarketCapLink": null,
+        "volume24Hr": null,
+        "volumeAllCurrencies": null,
+        "circulatingSupply": null,
+        "algorithm": null,
+        "maxSupply": null,
+        "startDate": null,
+        "tradeable": false
+    },
+    "incomeStatementHistoryQuarterly": {
+        "incomeStatementHistory": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200,
+                "totalRevenue": 17553000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 2915000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1727654400,
+                "totalRevenue": 14968000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": -330000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1719705600,
+                "totalRevenue": 15770000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 1834000000,
+                "netIncomeApplicableToCommonShares": null
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1711843200,
+                "totalRevenue": 14462000000,
+                "costOfRevenue": 0,
+                "grossProfit": 0,
+                "researchDevelopment": null,
+                "sellingGeneralAdministrative": null,
+                "nonRecurring": null,
+                "otherOperatingExpenses": null,
+                "totalOperatingExpenses": 0,
+                "operatingIncome": null,
+                "totalOtherIncomeExpenseNet": null,
+                "ebit": 0,
+                "interestExpense": null,
+                "incomeBeforeTax": null,
+                "incomeTaxExpense": 0,
+                "minorityInterest": null,
+                "netIncomeFromContinuingOps": null,
+                "discontinuedOperations": null,
+                "extraordinaryItems": null,
+                "effectOfAccountingCharges": null,
+                "otherItems": null,
+                "netIncome": 1605000000,
+                "netIncomeApplicableToCommonShares": null
+            }
+        ],
+        "maxAge": 86400
+    },
+    "cashflowStatementHistoryQuarterly": {
+        "cashflowStatements": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200,
+                "netIncome": 2915000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1727654400,
+                "netIncome": -330000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1719705600,
+                "netIncome": 1834000000
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1711843200,
+                "netIncome": 1605000000
+            }
+        ],
+        "maxAge": 86400
+    },
+    "earnings": {
+        "maxAge": 86400,
+        "earningsChart": {
+            "quarterly": [
+                {
+                    "date": "1Q2024",
+                    "actual": 1.68,
+                    "estimate": 1.59694
+                },
+                {
+                    "date": "2Q2024",
+                    "actual": 2.43,
+                    "estimate": 2.17118
+                },
+                {
+                    "date": "3Q2024",
+                    "actual": 2.3,
+                    "estimate": 2.22596
+                },
+                {
+                    "date": "4Q2024",
+                    "actual": 3.92,
+                    "estimate": 3.77753
+                }
+            ],
+            "currentQuarterEstimate": 1.42707,
+            "currentQuarterEstimateDate": "1Q",
+            "currentQuarterEstimateYear": 2025,
+            "earningsDate": [
+                1745319540,
+                1745841600
+            ],
+            "isEarningsDateEstimate": true
+        },
+        "financialsChart": {
+            "yearly": [
+                {
+                    "date": 2021,
+                    "revenue": 57350000000,
+                    "earnings": 5743000000
+                },
+                {
+                    "date": 2022,
+                    "revenue": 60530000000,
+                    "earnings": 1639000000
+                },
+                {
+                    "date": 2023,
+                    "revenue": 61860000000,
+                    "earnings": 7502000000
+                },
+                {
+                    "date": 2024,
+                    "revenue": 62753000000,
+                    "earnings": 6023000000
+                }
+            ],
+            "quarterly": [
+                {
+                    "date": "1Q2024",
+                    "revenue": 14462000000,
+                    "earnings": 1605000000
+                },
+                {
+                    "date": "2Q2024",
+                    "revenue": 15770000000,
+                    "earnings": 1834000000
+                },
+                {
+                    "date": "3Q2024",
+                    "revenue": 14968000000,
+                    "earnings": -330000000
+                },
+                {
+                    "date": "4Q2024",
+                    "revenue": 17553000000,
+                    "earnings": 2915000000
+                }
+            ]
+        },
+        "financialCurrency": "USD"
+    },
+    "pageViews": {
+        "shortTermTrend": "DOWN",
+        "midTermTrend": "UP",
+        "longTermTrend": "UP",
+        "maxAge": 1
+    },
+    "price": {
+        "maxAge": 1,
+        "preMarketChange": null,
+        "preMarketPrice": null,
+        "preMarketSource": "FREE_REALTIME",
+        "postMarketChangePercent": -0.00489895,
+        "postMarketChange": -1.28,
+        "postMarketTime": 1739581168,
+        "postMarketPrice": 260.0,
+        "postMarketSource": "FREE_REALTIME",
+        "regularMarketChangePercent": 0.008063571,
+        "regularMarketChange": 2.09,
+        "regularMarketTime": 1739566802,
+        "priceHint": 2,
+        "regularMarketPrice": 261.28,
+        "regularMarketDayHigh": 261.94,
+        "regularMarketDayLow": 258.0,
+        "regularMarketVolume": 3921620,
+        "averageDailyVolume10Day": 5004500,
+        "averageDailyVolume3Month": 4377626,
+        "regularMarketPreviousClose": 259.19,
+        "regularMarketSource": "FREE_REALTIME",
+        "regularMarketOpen": 259.0,
+        "strikePrice": null,
+        "openInterest": null,
+        "exchange": "NYQ",
+        "exchangeName": "NYSE",
+        "exchangeDataDelayedBy": 0,
+        "marketState": "CLOSED",
+        "quoteType": "EQUITY",
+        "symbol": "IBM",
+        "underlyingSymbol": null,
+        "shortName": "International Business Machines",
+        "longName": "International Business Machines Corporation",
+        "currency": "USD",
+        "quoteSourceName": "Nasdaq Real Time Price",
+        "currencySymbol": "$",
+        "fromCurrency": null,
+        "toCurrency": null,
+        "lastMarket": null,
+        "volume24Hr": null,
+        "volumeAllCurrencies": null,
+        "circulatingSupply": null,
+        "marketCap": 241591238656
+    },
+    "balanceSheetHistory": {
+        "balanceSheetStatements": [
+            {
+                "maxAge": 1,
+                "endDate": 1735603200
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1703980800
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1672444800
+            },
+            {
+                "maxAge": 1,
+                "endDate": 1640908800
+            }
+        ],
+        "maxAge": 86400
+    },
+    "corporateActions": {
+        "corporateActions": [],
+        "maxAge": 1
+    }
+}

@@ -1,3 +1,27 @@
-start command: pipenv run python app.py
+### Information from /search
 
-information returned from /search is in the nasdaq_companies.csv
+The information returned from `/search` is in the `nasdaq_companies.csv` file located in the reference data folder.
+
+### To do 
+add contributions to yahoo fin library, the parse_json and the get_quote_table
+ - get_quote_table is in div data-testid="quote-statistics", will have to figure out a new way from the function to capture the table data, bc the site no long uses the <table> tag, which is what the get_quote_table focuses this will also fix the get_stats(ticker) function
+
+ need to use get_financial to grab debt for debt to equity ratio, but the parse json will not work, only works for get_earnings
+
+### Future Feature
+
+A feature must be added in the future to change the date of the ratio. Currently, only 4Q2024 data is being used.
+
+#### Quarterly Results from `yf.get_earnings(symbol)['quarterly_results']`
+in pandas dataframe
+| Date   | Actual | Estimate |
+|--------|--------|----------|
+| 1Q2024 | 5.28   | 4.52583  |
+| 2Q2024 | 4.88   | 4.74152  |
+| 3Q2024 | 5.40   | 5.11570  |
+| 4Q2024 | 4.27   | 4.19551  |
+
+
+
+### Financial Ratios
+ p/e: using diluted eps not basic is that ok?
