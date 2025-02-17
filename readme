@@ -1,0 +1,3 @@
+start command: pipenv run python app.py
+
+information returned from /search is in the nasdaq_companies.csv
