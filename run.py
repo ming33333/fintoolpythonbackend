@@ -1,6 +1,5 @@
 from flask import Flask
 from dotenv import load_dotenv
-import os
 from app.routes import main as main_blueprint
 
 # Load environment variables from .env file
