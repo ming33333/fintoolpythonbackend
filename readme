@@ -8,6 +8,13 @@ add contributions to yahoo fin library, the parse_json and the get_quote_table
 
  need to use get_financial to grab debt for debt to equity ratio, but the parse json will not work, only works for get_earnings
 
+finance ratios
+ - p/e = close_price/diluted_eps: diluted eps(done), need to get close data by fixing get_data
+ - debt to equity
+ - return on equity
+ - operating margin
+ - current ratio
+
 ### Future Feature
 
 A feature must be added in the future to change the date of the ratio. Currently, only 4Q2024 data is being used.

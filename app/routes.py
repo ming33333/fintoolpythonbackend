@@ -2,6 +2,7 @@ from flask import Blueprint, request
 from dotenv import load_dotenv
 import app.helpers as h
 import pandas as pd
+import yahoo_fin.stock_info as yf
 # API from https://theautomatic.net/yahoo_fin-documentation/#tickers_nasdaq
 
 main = Blueprint('main', __name__)
@@ -18,6 +19,7 @@ def search():
         search.cached_results = yf.tickers_nasdaq(include_company_data = True) 
     search_results = h.search_company(company, search.cached_results) #Search for company in cache data
     return {'matches': search_results} if search_results else {'matches': 'Nothing to see here'}
+
 @main.route('/financeratios', methods=['GET'])
 def financeratios():
     data = request.args
@@ -27,8 +29,8 @@ def financeratios():
     ratios = h.company_ratios(symbol)
     return {'status': 'success', 'data': ratios}, 200
 
-@main.route('/test', methods=['GET'])
-def test():
+@main.route('/health', methods=['GET'])
+def health():
     return {'status': 'success',}, 200
     #return yf.get_company_info("aapl")
 

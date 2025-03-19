@@ -23,8 +23,9 @@ def company_ratios(symbol):
         end_date = '2025-01-01'
 
         df = yf.get_earnings(symbol)['quarterly_results']
+        print('df',df)
         diluted_eps = df.at[df[df['date']== quarter].index.tolist()[0],'actual'] #TODO assuming only 1 quarter
-
+        print('diluted_eps',diluted_eps)
         close_price = yf.get_data(symbol,start_date = start_date, end_date = end_date).at[start_date,"close"] #TODO assuming this day has a price
         
         pe_ratio = close_price/diluted_eps
@@ -32,7 +33,8 @@ def company_ratios(symbol):
         #total_debt = yf.get_financials(symbol,yearly= False,quarterly = True)#TODO does not grab all the data
         total_debt =yf.get_balance_sheet(symbol, yearly = False)
         print('total_debt',total_debt)
-        return {"PE Ratio": 5,
+        return {"name": symbol,
+                "PE Ratio": 5,
                 "Debt to Equity": 5,
                 "ROE": 5,
                 "OM": 5,
